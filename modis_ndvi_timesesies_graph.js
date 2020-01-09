@@ -55,7 +55,6 @@ var MOD_merged = s2_terra_image.merge(s2_aqua_image)
 var MOD_merge_sorted = MOD_merged.sort("system:time_start")
 print(MOD_merge_sorted)
 
-
 var polygon = ee.Geometry.Polygon([
   [geometry,geometry2,geometry3]]);
 
